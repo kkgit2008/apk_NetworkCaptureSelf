@@ -1,7 +1,8 @@
 # 写在前面的 QA
-Q: 报错怎么办，如
-“Could not create an instance of type org.gradle.initialization.DefaultSettings_Decorated.
-> Could not initialize class org.codehaus.groovy.reflection.ReflectionCache” 
+Q: 报错怎么办，如 
+
+_Could not create an instance of type org.gradle.initialization.DefaultSettings_Decorated. 
+Could not initialize class org.codehaus.groovy.reflection.ReflectionCache_
  
 A：更改编译工具“apk_builder”中的“build.yaml”，将所有的版本数值修改为最小值，如“java-version: 11” . 
 
